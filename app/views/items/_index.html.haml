@@ -1,0 +1,13 @@
+= link_to items_path, class: 'item-link' do
+  %figure.items-box-photo
+    = image_tag "nike.jpg", alt: "sample", height: "220px", width: "220px"
+  .products
+    %h3.products__name
+      【新品】NIKE BIG SWOOSH ナイキ ビッグスウォッシュ ロンT 専用
+    .products__price
+      .products__price--fig ¥4,000
+      .products__price--likes
+        %i.icon-like-border
+          %i.far.fa-heart
+        %span.num 32
+      %p.products__price--tax (税込)

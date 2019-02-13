@@ -1,0 +1,17 @@
+.message-content__comments
+  .comments-box
+    .message-user
+      = image_tag "/avatar.png", alt: "sample", class: "avatar"
+    .message-user-name
+      あきら
+    .message-body
+      .text
+        サイズはどれくらいですか？
+      .icons
+        .icons-left
+          %i.far.fa-clock
+          %span 9日前
+        .icons-right
+          = link_to items_path, class: "message-report" do
+            %i.fas.fa-flag-checkered
+      %i.fas.fa-caret-left
