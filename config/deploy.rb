@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, 'mercari_f35'
-set :repo_url, 'git@github.com:ShigeakiS/mercari_f35.git'
+set :application, 'freemarket_f35'
+set :repo_url, 'git@github.com:ShigeakiS/freemarket_f35.git'
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
 
