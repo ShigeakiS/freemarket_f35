@@ -42,12 +42,8 @@ gem 'enum_help'
 
 gem 'recaptcha', require: "recaptcha/rails"
 
-gem 'mini_magick'
-gem 'fog-aws'
-
 group :production do
   gem 'unicorn'
-  gem 'carrierwave'
 end
 
 group :development, :test do
@@ -58,6 +54,9 @@ group :development, :test do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-unicorn'
+  gem 'carrierwave'
+  gem 'mini_magick'
+  gem 'fog-aws'
 end
 
 group :development do
