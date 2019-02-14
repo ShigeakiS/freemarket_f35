@@ -42,8 +42,12 @@ gem 'enum_help'
 
 gem 'recaptcha', require: "recaptcha/rails"
 
+gem 'mini_magick'
+gem 'fog-aws'
+
 group :production do
   gem 'unicorn'
+  gem 'carrierwave'
 end
 
 group :development, :test do
